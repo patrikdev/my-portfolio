@@ -2,13 +2,26 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  max-height: 700px;
+  max-height: 500px;
   background: #ffffff;
   padding: 20px 0;
 `;
 
-const BoxContent = ({ children, style }) => {
-  return <Container style={style}>{children}</Container>;
+export const Title = styled.div`
+  padding: 30px 0;
+  color: #4b505e;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+`;
+
+const BoxContent = ({ children, style, title }) => {
+  return (
+    <Container style={style}>
+      <Title>{title}</Title>
+      {children}
+    </Container>
+  );
 };
 
 export default BoxContent;
