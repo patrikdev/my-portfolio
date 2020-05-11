@@ -1,12 +1,13 @@
 import styled from "styled-components";
-import LogoIMG from "../../assets/img/Logo.jpg";
+import LogoIMG from "../../assets/img/logo.png";
 
 export const Container = styled.div`
   position: fixed;
   width: 100%;
   height: 70px;
-  background: #ffffff;
-  padding: 10px;
+  z-index: 99;
+  padding: 5px;
+  background: #000000;
 `;
 
 export const ContainerLogo = styled.div`
@@ -18,7 +19,7 @@ export const Logo = styled.div`
   width: 100%;
   height: 100%;
   background-image: url('${LogoIMG}');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 `;

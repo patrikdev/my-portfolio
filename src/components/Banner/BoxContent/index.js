@@ -3,11 +3,11 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 500px;
-  background: black;
+  background: #000000;
 `;
 
-const BoxContent = ({ children }) => {
-  return <Container>{children}</Container>;
+const BoxContent = ({ children, style }) => {
+  return <Container style={style}>{children}</Container>;
 };
 
 export default BoxContent;

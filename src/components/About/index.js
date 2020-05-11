@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./styles";
-import BoxContent from "../BoxContent/index";
+import BoxContent from "../Banner/BoxContent/index";
 import PageWidth from "../PageWidth/index";
 import AboutImage from "./AboutImage/index";
 import AboutText from "./AboutText/index";
