@@ -7,12 +7,14 @@ export const Container = styled.div`
   height: 70px;
   z-index: 99;
   padding: 5px;
-  background: #000000;
+  background: rgba(0, 0, 0, 0.2);
 `;
 
 export const ContainerLogo = styled.div`
-  width: 150px;
+  width: 120px;
   height: 60px;
+  display: inline-block;
+  vertical-align: top;
 `;
 
 export const Logo = styled.div`
@@ -24,4 +26,19 @@ export const Logo = styled.div`
   background-position: center;
 `;
 
-export const ContainerLabel = styled.div``;
+export const ContainerLabel = styled.div`
+  display: inline-block;
+  vertical-align: top;
+  width: 87%;
+  text-align: right;
+  line-height: 60px;
+`;
+
+export const Label = styled.div`
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  color: #ffff;
+  margin-right: 20px;
+  font-weight: bold;
+`;

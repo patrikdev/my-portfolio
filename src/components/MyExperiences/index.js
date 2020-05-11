@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./styles";
-import BoxContent from "../Banner/BoxContent";
+import BoxContent from "../BoxContent";
 import PageWidth from "../PageWidth/index";
 
 const MyExperiences = () => {

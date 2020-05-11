@@ -2,8 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  height: 500px;
-  background: #000000;
+  max-height: 700px;
+  background: #ffffff;
+  padding: 20px 0;
 `;
 
 const BoxContent = ({ children, style }) => {

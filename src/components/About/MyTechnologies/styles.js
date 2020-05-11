@@ -1,15 +1,16 @@
 import styled from "styled-components";
-import IMG from "../../assets/img/programmer.jpeg";
 
 export const Container = styled.div`
-  height: 650px;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  border-radius: 7px;
 `;
 
 export const Image = styled.div`
-  width: 100%;
-  height: 100%;
-  background: url('${IMG}');
+  height: 120px;
+  width: 120px;
+  background: url('${(props) => props.image}');
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
 `;
