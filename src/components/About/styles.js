@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  display: flex;
-`;
+export const Container = styled.div``;
 
 export const Title = styled.div`
   color: #ffffff;
@@ -14,6 +12,9 @@ export const Title = styled.div`
 `;
 
 export const Col = styled.div`
-  flex: 1;
-  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 14.2%;
+  padding: 20px 0;
+  text-align: center;
 `;
