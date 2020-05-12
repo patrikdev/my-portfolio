@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./styles";
 
-const DetailsBox = () => {
+const DetailsBox = (props) => {
   return (
     <S.Container>
       <S.Col>
@@ -17,13 +17,13 @@ const DetailsBox = () => {
       </S.Col>
       <S.Col>
         <S.Row>
-          <div>Auxiliar Técnico</div>
+          <div>{props.charge}</div>
         </S.Row>
         <S.Row>
-          <div>22/12/2020</div>
+          <div>{props.start}</div>
         </S.Row>
         <S.Row>
-          <div>22/12/2020</div>
+          <div>{props.end}</div>
         </S.Row>
       </S.Col>
     </S.Container>

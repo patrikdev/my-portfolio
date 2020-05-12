@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  max-height: 700px;
+  min-height: 500px;
+  /* max-height: 800px; */
   background: "#f9f9fc";
   padding: 50px 0;
 `;

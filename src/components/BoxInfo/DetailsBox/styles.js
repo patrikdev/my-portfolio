@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex: 1;
   font-size: 14px;
-  padding: 20px 5px;
+  padding: 20px 0;
 `;
 
 export const Col = styled.div`
@@ -13,7 +13,7 @@ export const Col = styled.div`
 
 export const Row = styled.div`
   display: flex;
-  padding: 5px;
+  padding: 5px 0;
   white-space: nowrap;
-  text-align: left;
+  text-align: center;
 `;
