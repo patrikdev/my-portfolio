@@ -40,5 +40,5 @@ export const Label = styled.div`
   font-size: 18px;
   color: #ffff;
   margin-right: 20px;
-  font-weight: 400;
+  font-weight: 0;
 `;

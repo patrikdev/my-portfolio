@@ -19,7 +19,7 @@ const About = () => {
       <PageWidth>
         <S.Container>
           <AboutText />
-          <SubTitle label="Minhas Técnologias" />
+          <SubTitle label="Minhas Tecnologias" />
           <S.Col>
             <MyTechnologies image={ReactLogo} />
           </S.Col>

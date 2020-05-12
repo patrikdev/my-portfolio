@@ -19,6 +19,20 @@ export const ContainerImage = styled.div`
   justify-content: center;
 `;
 
+export const ContainerTitle = styled.div`
+  display: flex;
+  height: 100%;
+  margin-top: 150px;
+  align-items: top;
+  justify-content: center;
+`;
+
+export const Title = styled.div`
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: 700;
+`;
+
 export const Image = styled.div`
   width: 400px;
   height: 400px;
