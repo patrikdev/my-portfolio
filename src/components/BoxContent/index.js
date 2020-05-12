@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   max-height: 700px;
-  background: #ffffff;
+  background: "#f9f9fc";
   padding: 50px 0;
 `;
 
