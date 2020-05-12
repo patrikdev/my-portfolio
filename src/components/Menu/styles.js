@@ -7,7 +7,7 @@ export const Container = styled.div`
   height: 70px;
   z-index: 99;
   padding: 5px;
-  background: rgba(0, 0, 0, 0.2);
+  /* background: rgba(0, 0, 0, 0.2); */
 `;
 
 export const ContainerLogo = styled.div`
@@ -37,8 +37,8 @@ export const ContainerLabel = styled.div`
 export const Label = styled.div`
   display: inline-block;
   vertical-align: top;
-  font-size: 16px;
+  font-size: 18px;
   color: #ffff;
   margin-right: 20px;
-  font-weight: bold;
+  font-weight: 400;
 `;

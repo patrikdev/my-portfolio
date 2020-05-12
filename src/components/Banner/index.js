@@ -4,7 +4,12 @@ import * as S from "./styles";
 const Banner = () => {
   return (
     <S.Container>
-      <S.Image />
+      <S.Col>teste</S.Col>
+      <S.Col>
+        <S.ContainerImage>
+          <S.Image />
+        </S.ContainerImage>
+      </S.Col>
     </S.Container>
   );
 };
