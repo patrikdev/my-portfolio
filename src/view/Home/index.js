@@ -5,6 +5,7 @@ import About from "../../components/About";
 import Content from "../../components/Content/index";
 import Banner from "../../components/Banner/index";
 import MyExperiences from "../../components/MyExperiences";
+import Courses from "../../components/Courses/index";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Banner />
         <About />
         <MyExperiences />
+        <Courses />
       </Content>
     </S.Container>
   );
