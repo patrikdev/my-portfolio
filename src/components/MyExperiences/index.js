@@ -5,9 +5,9 @@ import PageWidth from "../PageWidth/index";
 
 const MyExperiences = () => {
   return (
-    <BoxContent style={{ backgroundColor: "#060606" }}>
+    <BoxContent title="Experiências" style={{ backgroundColor: "#f9f9fc" }}>
       <PageWidth>
-        <S.Container>teste</S.Container>
+        <S.Container></S.Container>
       </PageWidth>
     </BoxContent>
   );

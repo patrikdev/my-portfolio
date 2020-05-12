@@ -2,10 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  min-height: 500px;
   max-height: 700px;
   background: #ffffff;
-  padding: 20px 0;
+  padding: 50px 0;
 `;
 
 export const Title = styled.div`
