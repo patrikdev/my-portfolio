@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./styles";
 
-const TextCourse = ({ text }) => {
+const BoxText = ({ text }) => {
   return (
     <S.Container>
       <S.Label>{text}</S.Label>
@@ -9,4 +9,4 @@ const TextCourse = ({ text }) => {
   );
 };
 
-export default TextCourse;
+export default BoxText;

@@ -1,12 +1,12 @@
 import React from "react";
 import * as S from "./styles";
 
-export const LogoCourse = () => {
+const BoxTitle = ({ title }) => {
   return (
     <S.Container>
-      <S.Image />
+      <S.Label>{title}</S.Label>
     </S.Container>
   );
 };
 
-export default LogoCourse;
+export default BoxTitle;

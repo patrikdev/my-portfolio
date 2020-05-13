@@ -1,12 +1,12 @@
 import React from "react";
 import * as S from "./styles";
 
-const TitleCourse = ({ title }) => {
+export const LogoCourse = ({ icon }) => {
   return (
     <S.Container>
-      <S.Label>{title}</S.Label>
+      <S.Image icon={icon} />
     </S.Container>
   );
 };
 
-export default TitleCourse;
+export default LogoCourse;
