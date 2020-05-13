@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import IconImg from "../../../assets/img/empresa.png";
+import IconImg from "../../../../assets/img/empresa.png";
 
 export const Container = styled.div`
   width: 60px;

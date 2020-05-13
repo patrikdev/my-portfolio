@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import * as S from "./styles";
 import BoxContent from "../BoxContent";
 import PageWidth from "../PageWidth/index";
-import BoxInfo from "../BoxInfo/index";
+import BoxInfo from "./BoxCompanies";
 import Companies from "./ListCompanies.json";
 
 const MyExperiences = () => {

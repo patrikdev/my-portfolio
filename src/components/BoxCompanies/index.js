@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./styles";
 import BoxIcon from "./BoxIcon/index";
-import DetailsBox from "./DetailsBox";
+import DetailsBox from "../../BoxContent/DetailsBox";
 import BoxText from "./BoxText";
 
 const BoxInfo = (props) => {

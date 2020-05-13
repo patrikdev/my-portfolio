@@ -1,7 +1,5 @@
 import React from "react";
 import * as S from "./styles";
-import { Title } from "../BoxContent/index";
-import PageWidth from "../PageWidth/index";
 
 const Banner = () => {
   return (

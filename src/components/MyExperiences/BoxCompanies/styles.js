@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: inline-block;
-  vertical-align: top;
   width: 360px;
   background: #f9f9fc;
   text-align: center !important;
