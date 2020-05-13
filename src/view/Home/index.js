@@ -7,6 +7,7 @@ import Banner from "../../components/Banner";
 import MyExperiences from "../../components/MyExperiences";
 import Courses from "../../components/Courses";
 import Projects from "../../components/Projects";
+import Footer from "../../components/Footer/index";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <MyExperiences />
         <Courses />
         <Projects />
+        <Footer />
       </Content>
     </S.Container>
   );
