@@ -20,10 +20,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Row = styled.div`
-  display: flex;
-  justify-content: center;
-`;
+export const Row = styled.div``;
 
 export const Title = styled.span`
   color: #2c2c51;

@@ -7,6 +7,7 @@ export const Container = styled.div`
   padding: 10px;
   border-radius: 5px;
   background: #f9f9fc;
+  margin: auto;
 `;
 
 export const Icon = styled.div`
