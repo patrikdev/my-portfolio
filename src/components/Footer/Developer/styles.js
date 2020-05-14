@@ -13,11 +13,11 @@ export const ContainerIcons = styled.div`
 `;
 
 export const ContainerIcon = styled.div`
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   display: inline-block;
   vertical-align: top;
-  margin-right: 10px;
+  margin-right: 15px;
 `;
 
 export const Title = styled.div`
