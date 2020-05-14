@@ -4,7 +4,7 @@ import Menu from "../../components/Menu";
 import About from "../../components/About";
 import Content from "../../components/Content";
 import Banner from "../../components/Banner";
-import MyExperiences from "../../components/MyExperiences";
+import Experiences from "../../components/Experiences";
 import Courses from "../../components/Courses";
 import Projects from "../../components/Projects";
 import Footer from "../../components/Footer/index";
@@ -16,7 +16,7 @@ const Home = () => {
       <Content>
         <Banner />
         <About />
-        <MyExperiences />
+        <Experiences />
         <Courses />
         <Projects />
         <Footer />

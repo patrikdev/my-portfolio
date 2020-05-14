@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import * as S from "./styles";
 import BoxContent from "../BoxContent";
 import PageWidth from "../PageWidth/index";
-import BoxInfo from "./BoxCompanies";
+import BoxCompany from "./BoxCompany";
 import Companies from "./ListCompanies.json";
 
 const MyExperiences = () => {
@@ -12,7 +12,7 @@ const MyExperiences = () => {
         {Companies.companies.map((item) => {
           return (
             <S.Container key={item.id}>
-              <BoxInfo
+              <BoxCompany
                 title={item.title}
                 charge={item.charge}
                 start={item.start}

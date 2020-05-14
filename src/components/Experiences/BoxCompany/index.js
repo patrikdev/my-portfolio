@@ -4,7 +4,7 @@ import BoxIcon from "./BoxIcon/index";
 import DetailsBox from "../../BoxContent/DetailsBox";
 import BoxText from "./BoxText";
 
-const BoxInfo = (props) => {
+const BoxCompany = (props) => {
   return (
     <S.Container>
       <S.Row>
@@ -23,4 +23,4 @@ const BoxInfo = (props) => {
   );
 };
 
-export default BoxInfo;
+export default BoxCompany;
