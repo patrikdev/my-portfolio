@@ -4,12 +4,12 @@ import BoxIcon from "./BoxIcon/index";
 import BoxTitle from "./BoxTitle/index.js";
 import BoxText from "./BoxText/index.js";
 
-const BoxItems = (props) => {
+const BoxItems = ({ icon, title, text, iconStyle }) => {
   return (
     <S.Container>
-      <BoxIcon icon={props.icon} />
-      <BoxTitle title={props.title} />
-      <BoxText text={props.text} />
+      <BoxIcon iconStyle={iconStyle} icon={icon} />
+      <BoxTitle title={title} />
+      <BoxText text={text} />
     </S.Container>
   );
 };
