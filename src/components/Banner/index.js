@@ -1,19 +1,22 @@
 import React from "react";
 import * as S from "./styles";
+import PageWidth from "../PageWidth/index";
 
 const Banner = () => {
   return (
     <S.Container>
-      <S.Col>
-        <S.ContainerTitle>
-          <S.Title>Patrik Matos </S.Title>
-        </S.ContainerTitle>
-      </S.Col>
-      <S.Col>
-        <S.ContainerImage>
-          <S.Image />
-        </S.ContainerImage>
-      </S.Col>
+      <PageWidth>
+        <S.Col>
+          <S.ContainerTitle>
+            <S.Title>Desenvolvedor Junior</S.Title>
+          </S.ContainerTitle>
+        </S.Col>
+        <S.Col>
+          <S.ContainerImage>
+            <S.Image />
+          </S.ContainerImage>
+        </S.Col>
+      </PageWidth>
     </S.Container>
   );
 };
