@@ -1,8 +1,8 @@
 import React from "react";
 import * as S from "./styles";
-import Facebook from "../../../assets/img/facebook.svg";
-import Linkedin from "../../../assets/img/linkedin.svg";
-import Github from "../../../assets/img/github.svg";
+import Facebook from "../../../assets/svg/facebook.svg";
+import Linkedin from "../../../assets/svg/linkedin.svg";
+import Github from "../../../assets/svg/github.svg";
 
 const Developer = () => {
   return (

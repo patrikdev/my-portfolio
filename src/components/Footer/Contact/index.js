@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./styles";
-import Phone from "../../../assets/img/phone.svg";
-import Mail from "../../../assets/img/mail.svg";
+import Phone from "../../../assets/svg/phone.svg";
+import Mail from "../../../assets/svg/mail.svg";
 import IconLabel from "./IconLabel";
 
 export const Contact = () => {
