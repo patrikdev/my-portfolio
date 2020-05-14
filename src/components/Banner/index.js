@@ -8,7 +8,7 @@ const Banner = () => {
       <PageWidth>
         <S.Col>
           <S.ContainerTitle>
-            <S.Title>Desenvolvedor Junior</S.Title>
+            <S.Title>Desenvolvedor React e React Native Junior</S.Title>
           </S.ContainerTitle>
         </S.Col>
         <S.Col>
