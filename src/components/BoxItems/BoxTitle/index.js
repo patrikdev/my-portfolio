@@ -3,8 +3,8 @@ import * as S from "./styles";
 
 const BoxTitle = ({ title }) => {
   return (
-    <S.Container>
-      <S.Label>{title}</S.Label>
+    <S.Container className="container-box-title">
+      <S.Label className="box-title">{title}</S.Label>
     </S.Container>
   );
 };

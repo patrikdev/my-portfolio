@@ -1,12 +1,12 @@
 import React from "react";
 import * as S from "./styles";
 
-export const LogoCourse = ({ icon, iconStyle }) => {
+export const BoxIcon = ({ icon, iconStyle }) => {
   return (
-    <S.Container style={iconStyle}>
-      <S.Image icon={icon} />
+    <S.Container className="container-box-icon" style={iconStyle}>
+      <S.Image className="box-icon" icon={icon} />
     </S.Container>
   );
 };
 
-export default LogoCourse;
+export default BoxIcon;

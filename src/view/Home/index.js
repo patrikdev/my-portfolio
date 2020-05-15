@@ -11,7 +11,7 @@ import Footer from "../../components/Footer/index";
 
 const Home = () => {
   return (
-    <S.Container>
+    <S.Container className="container-home">
       <Menu />
       <Content>
         <Banner />

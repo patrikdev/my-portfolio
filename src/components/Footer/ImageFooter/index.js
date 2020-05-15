@@ -3,8 +3,8 @@ import * as S from "./styles";
 
 const ImageFooter = () => {
   return (
-    <S.Container>
-      <S.Image />
+    <S.Container className="container-image-footer">
+      <S.Image className="image-footer" />
     </S.Container>
   );
 };

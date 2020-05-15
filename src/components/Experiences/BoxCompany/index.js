@@ -6,17 +6,17 @@ import BoxText from "./BoxText";
 
 const BoxCompany = ({ title, charge, start, end, onClick, text }) => {
   return (
-    <S.Container onClick={onClick}>
-      <S.Row>
+    <S.Container className="container-box-company" onClick={onClick}>
+      <S.Row className="row-box-company">
         <BoxIcon />
       </S.Row>
-      <S.Row>
-        <S.Title>{title}</S.Title>
+      <S.Row className="row-box-company">
+        <S.Title className="title-box-company">{title}</S.Title>
       </S.Row>
-      <S.Row>
+      <S.Row className="row-box-company">
         <DetailsBox charge={charge} start={start} end={end} />
       </S.Row>
-      <S.Row>
+      <S.Row className="row-box-company">
         <BoxText text={text} />
       </S.Row>
     </S.Container>

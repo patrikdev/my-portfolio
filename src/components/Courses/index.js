@@ -13,12 +13,12 @@ const redirectPage = (link) => {
 
 const Courses = () => {
   return (
-    <S.Container>
+    <S.Container className="container-courses">
       <PageWidth>
         <Title title="Cursos" />
         {ListCourses.courses.map((item) => {
           return (
-            <S.ContainerBox key={item.id}>
+            <S.ContainerBox className="container-box-course" key={item.id}>
               <BoxCourse
                 onClick={() => redirectPage(item.link)}
                 icon={DigitalInnovation}

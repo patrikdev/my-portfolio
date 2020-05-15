@@ -14,8 +14,8 @@ const Label = styled.div`
 
 const Title = ({ title }) => {
   return (
-    <Container>
-      <Label>{title}</Label>
+    <Container className="container-title">
+      <Label clasName="label-title">{title}</Label>
     </Container>
   );
 };

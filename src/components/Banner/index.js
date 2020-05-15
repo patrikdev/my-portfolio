@@ -4,19 +4,23 @@ import PageWidth from "../PageWidth/index";
 
 const Banner = () => {
   return (
-    <S.Container>
+    <S.Container className="container-banner">
       <PageWidth>
-        <S.Col>
-          <S.ContainerTitle>
-            <S.TitleSize22>Desenvolvedor</S.TitleSize22>
-            <S.Title>React</S.Title>
-            <S.TitleSize18>&nbsp;e&nbsp;</S.TitleSize18>
-            <S.Title>React Native</S.Title>
-          </S.ContainerTitle>
+        <S.Col className="col-banner-labels">
+          <S.ContainerLabels className="container-banner-labels">
+            <S.TitleSize22 className="title-size22-banner">
+              Desenvolvedor
+            </S.TitleSize22>
+            <S.Title className="title-banner">React</S.Title>
+            <S.TitleSize18 className="title-size18-banner">
+              &nbsp;e&nbsp;
+            </S.TitleSize18>
+            <S.Title className="title-banner">React Native</S.Title>
+          </S.ContainerLabels>
         </S.Col>
-        <S.Col>
-          <S.ContainerImage>
-            <S.Image />
+        <S.Col className="col-banner-image">
+          <S.ContainerImage className="container-banner-image">
+            <S.Image className="banner-image" />
           </S.ContainerImage>
         </S.Col>
       </PageWidth>

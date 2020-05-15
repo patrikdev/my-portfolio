@@ -14,8 +14,8 @@ const Label = styled.span`
 
 const SubTitle = (props) => {
   return (
-    <Container>
-      <Label>{props.label}</Label>
+    <Container className="container-subtitle">
+      <Label className="label-subtitle">{props.label}</Label>
     </Container>
   );
 };

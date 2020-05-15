@@ -6,14 +6,14 @@ import IconLabel from "./IconLabel";
 
 export const Contact = () => {
   return (
-    <S.Container>
-      <S.ContainerTitle>
-        <S.Title>Contato</S.Title>
+    <S.Container className="container-contact">
+      <S.ContainerTitle className="container-contact-title">
+        <S.Title className="title-contact">Contato</S.Title>
       </S.ContainerTitle>
-      <S.Row>
+      <S.Row className="row-icon-contact">
         <IconLabel icon={Phone} label="(11) 96551-0544" />
       </S.Row>
-      <S.Row>
+      <S.Row className="row-icon-contact">
         <IconLabel icon={Mail} label="patrikmatos.tecinfo@gmail.com" />
       </S.Row>
     </S.Container>

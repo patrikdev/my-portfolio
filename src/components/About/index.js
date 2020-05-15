@@ -16,30 +16,30 @@ import Title from "../Title/index";
 
 const About = () => {
   return (
-    <S.Container>
+    <S.Container className="container-about">
       <PageWidth>
         <Title title="Sobre" />
         <AboutText />
         <SubTitle label="Minhas Tecnologias" />
-        <S.Col>
+        <S.Col className="col-icon-about">
           <MyTechnologies image={ReactLogo} />
         </S.Col>
-        <S.Col>
+        <S.Col className="col-icon-about">
           <MyTechnologies image={ReactNative} />
         </S.Col>
-        <S.Col>
+        <S.Col className="col-icon-about">
           <MyTechnologies image={NodeLogo} />
         </S.Col>
-        <S.Col>
+        <S.Col className="col-icon-about">
           <MyTechnologies image={JSLogo} />
         </S.Col>
-        <S.Col>
+        <S.Col className="col-icon-about">
           <MyTechnologies image={Github} />
         </S.Col>
-        <S.Col>
+        <S.Col className="col-icon-about">
           <MyTechnologies image={Html5Logo} />
         </S.Col>
-        <S.Col>
+        <S.Col className="col-icon-about">
           <MyTechnologies image={Css3Logo} />
         </S.Col>
       </PageWidth>

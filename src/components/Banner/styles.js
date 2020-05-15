@@ -22,7 +22,7 @@ export const ContainerImage = styled.div`
   bottom: 0;
 `;
 
-export const ContainerTitle = styled.div`
+export const ContainerLabels = styled.div`
   position: relative;
   top: 180px;
   left: 0;

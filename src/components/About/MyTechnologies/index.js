@@ -3,8 +3,8 @@ import * as S from "./styles";
 
 const MyTechnologies = (props) => {
   return (
-    <S.Container>
-      <S.Image image={props.image} />
+    <S.Container className="container-my-technologies">
+      <S.Image className="icon-my-thecnologies" image={props.image} />
     </S.Container>
   );
 };

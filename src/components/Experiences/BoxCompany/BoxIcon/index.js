@@ -3,8 +3,8 @@ import * as S from "./styles";
 
 const BoxIcon = () => {
   return (
-    <S.Container>
-      <S.Icon />
+    <S.Container className="container-box-icon-company">
+      <S.Icon className="box-icon-company" />
     </S.Container>
   );
 };

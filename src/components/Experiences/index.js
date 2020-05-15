@@ -12,12 +12,12 @@ const redirectPage = (link) => {
 
 const Experiences = () => {
   return (
-    <S.Container>
+    <S.Container className="container-experiences">
       <PageWidth>
         <Title title="Experiências" />
         {Companies.companies.map((item) => {
           return (
-            <S.ContainerBox key={item.id}>
+            <S.ContainerBox className="col-box-company" key={item.id}>
               <BoxCompany
                 onClick={() => redirectPage(item.link)}
                 title={item.title}

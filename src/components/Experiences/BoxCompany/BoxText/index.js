@@ -3,8 +3,8 @@ import * as S from "./styles";
 
 const BoxText = (props) => {
   return (
-    <S.Container>
-      <S.Label>{props.text}</S.Label>
+    <S.Container className="container-box-text-company">
+      <S.Label className="box-text-company">{props.text}</S.Label>
     </S.Container>
   );
 };

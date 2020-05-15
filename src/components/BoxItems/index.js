@@ -6,7 +6,7 @@ import BoxText from "./BoxText/index.js";
 
 const BoxItems = ({ icon, title, text, iconStyle, onClick }) => {
   return (
-    <S.Container onClick={onClick}>
+    <S.Container className="container-box-items" onClick={onClick}>
       <BoxIcon iconStyle={iconStyle} icon={icon} />
       <BoxTitle title={title} />
       <BoxText text={text} />

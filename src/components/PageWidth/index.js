@@ -7,7 +7,7 @@ const Container = styled.div`
 `;
 
 const PageWidth = ({ children }) => {
-  return <Container>{children}</Container>;
+  return <Container className="container-page-width">{children}</Container>;
 };
 
 export default PageWidth;

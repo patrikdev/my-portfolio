@@ -6,25 +6,29 @@ import Github from "../../../assets/svg/github.svg";
 
 const Developer = () => {
   return (
-    <S.Container>
-      <S.ContainerTitle>
-        <S.Title>Deselvolvedor</S.Title>
+    <S.Container className="container-information-developer">
+      <S.ContainerTitle className="container-title-developer">
+        <S.Title className="title-developer">Deselvolvedor</S.Title>
       </S.ContainerTitle>
-      <S.ContainerLabel>
-        <S.Label>Deselvolvido por Patrik Matos</S.Label>
+      <S.ContainerLabel className="container-information-create">
+        <S.Label className="label-information">
+          Deselvolvido por Patrik Matos
+        </S.Label>
       </S.ContainerLabel>
-      <S.ContainerLabel>
-        <S.Label>Todos os Direitos Reservados.</S.Label>
+      <S.ContainerLabel className="container-information-rights">
+        <S.Label className="label-rights">
+          Todos os Direitos Reservados.
+        </S.Label>
       </S.ContainerLabel>
-      <S.ContainerIcons>
-        <S.ContainerIcon>
-          <S.Icon icon={Facebook} />
+      <S.ContainerIcons className="container-all-icons-social">
+        <S.ContainerIcon className="container-icon">
+          <S.Icon className="icon-social" icon={Facebook} />
         </S.ContainerIcon>
-        <S.ContainerIcon>
-          <S.Icon icon={Linkedin} />
+        <S.ContainerIcon className="col-footer-contact">
+          <S.Icon className="icon-social" icon={Linkedin} />
         </S.ContainerIcon>
-        <S.ContainerIcon>
-          <S.Icon icon={Github} />
+        <S.ContainerIcon className="col-footer-contact">
+          <S.Icon className="icon-social" icon={Github} />
         </S.ContainerIcon>
       </S.ContainerIcons>
     </S.Container>

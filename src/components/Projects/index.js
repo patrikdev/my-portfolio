@@ -12,10 +12,10 @@ const redirectPage = (link) => {
 
 const Projects = () => {
   return (
-    <S.Container>
+    <S.Container className="container-projects">
       <PageWidth>
         <Title title="Projetos" />
-        <S.Col>
+        <S.Col className="col-box-items-projects">
           <BoxItems
             onClick={() =>
               redirectPage("https://patrikdev.github.io/uarini.com/")
@@ -26,7 +26,7 @@ const Projects = () => {
             icon={Alagym}
           />
         </S.Col>
-        <S.Col>
+        <S.Col className="col-box-items-projects">
           <BoxItems
             onClick={() =>
               redirectPage(
