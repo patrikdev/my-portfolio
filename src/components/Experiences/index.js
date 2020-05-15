@@ -5,7 +5,7 @@ import PageWidth from "../PageWidth/index";
 import BoxCompany from "./BoxCompany";
 import Companies from "./ListCompanies.json";
 
-const MyExperiences = () => {
+const Experiences = () => {
   const redirectPage = (link) => {
     window.open(`${link}`);
   };
@@ -32,4 +32,4 @@ const MyExperiences = () => {
   );
 };
 
-export default MyExperiences;
+export default Experiences;
