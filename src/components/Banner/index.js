@@ -8,7 +8,10 @@ const Banner = () => {
       <PageWidth>
         <S.Col>
           <S.ContainerTitle>
-            <S.Title>Desenvolvedor React e React Native</S.Title>
+            <S.TitleSize22>Desenvolvedor</S.TitleSize22>
+            <S.Title>React</S.Title>
+            <S.TitleSize18>&nbsp;e&nbsp;</S.TitleSize18>
+            <S.Title>React Native</S.Title>
           </S.ContainerTitle>
         </S.Col>
         <S.Col>
