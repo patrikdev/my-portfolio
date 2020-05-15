@@ -10,5 +10,5 @@ body,
 html {
   font-family: "Poppins", sans-serif;
   cursor: default;
-  background: #eee;
+  background: transparent;
 }

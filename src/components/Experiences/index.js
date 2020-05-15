@@ -4,6 +4,7 @@ import BoxContent from "../BoxContent";
 import PageWidth from "../PageWidth/index";
 import BoxCompany from "./BoxCompany";
 import Companies from "./ListCompanies.json";
+import Title from "../Title/index";
 
 const redirectPage = (link) => {
   window.open(`${link}`);
@@ -11,11 +12,12 @@ const redirectPage = (link) => {
 
 const Experiences = () => {
   return (
-    <BoxContent title="Experiências" style={{ backgroundColor: "#ffffff" }}>
+    <S.Container>
       <PageWidth>
+        <Title title="Experiências" />
         {Companies.companies.map((item) => {
           return (
-            <S.Container key={item.id}>
+            <S.ContainerBox key={item.id}>
               <BoxCompany
                 onClick={() => redirectPage(item.link)}
                 title={item.title}
@@ -24,11 +26,11 @@ const Experiences = () => {
                 end={item.end}
                 text={item.text}
               />
-            </S.Container>
+            </S.ContainerBox>
           );
         })}
       </PageWidth>
-    </BoxContent>
+    </S.Container>
   );
 };
 

@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  background: #f9f9fc;
+  min-height: 700px;
+  padding: 50px 0;
+`;
 
 export const Title = styled.div`
   color: #ffffff;

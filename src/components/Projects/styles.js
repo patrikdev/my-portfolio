@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  background: #f9f9fc;
+  min-height: 500px;
+  padding: 50px 0;
+`;
 
 export const Col = styled.div`
   width: 49%;

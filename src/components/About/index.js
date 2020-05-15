@@ -12,38 +12,38 @@ import ReactLogo from "../../assets/img/react.png";
 import ReactNative from "../../assets/img/reactNative.png";
 import Github from "../../assets/img/github.jpg";
 import SubTitle from "../SubTitle/index";
+import Title from "../Title/index";
 
 const About = () => {
   return (
-    <BoxContent title="Sobre">
+    <S.Container>
       <PageWidth>
-        <S.Container>
-          <AboutText />
-          <SubTitle label="Minhas Tecnologias" />
-          <S.Col>
-            <MyTechnologies image={ReactLogo} />
-          </S.Col>
-          <S.Col>
-            <MyTechnologies image={ReactNative} />
-          </S.Col>
-          <S.Col>
-            <MyTechnologies image={NodeLogo} />
-          </S.Col>
-          <S.Col>
-            <MyTechnologies image={JSLogo} />
-          </S.Col>
-          <S.Col>
-            <MyTechnologies image={Github} />
-          </S.Col>
-          <S.Col>
-            <MyTechnologies image={Html5Logo} />
-          </S.Col>
-          <S.Col>
-            <MyTechnologies image={Css3Logo} />
-          </S.Col>
-        </S.Container>
+        <Title title="Sobre" />
+        <AboutText />
+        <SubTitle label="Minhas Tecnologias" />
+        <S.Col>
+          <MyTechnologies image={ReactLogo} />
+        </S.Col>
+        <S.Col>
+          <MyTechnologies image={ReactNative} />
+        </S.Col>
+        <S.Col>
+          <MyTechnologies image={NodeLogo} />
+        </S.Col>
+        <S.Col>
+          <MyTechnologies image={JSLogo} />
+        </S.Col>
+        <S.Col>
+          <MyTechnologies image={Github} />
+        </S.Col>
+        <S.Col>
+          <MyTechnologies image={Html5Logo} />
+        </S.Col>
+        <S.Col>
+          <MyTechnologies image={Css3Logo} />
+        </S.Col>
       </PageWidth>
-    </BoxContent>
+    </S.Container>
   );
 };
 

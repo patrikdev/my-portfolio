@@ -5,6 +5,7 @@ import PageWidth from "../PageWidth/index";
 import BoxCourse from "../BoxItems/index";
 import ListCourses from "./ListCourses.json";
 import DigitalInnovation from "../../assets/img/digital.png";
+import Title from "../Title/index";
 
 const redirectPage = (link) => {
   window.open(`${link}`);
@@ -12,11 +13,12 @@ const redirectPage = (link) => {
 
 const Courses = () => {
   return (
-    <BoxContent title="Cursos" style={{ backgroundColor: "#ffffff" }}>
+    <S.Container>
       <PageWidth>
+        <Title title="Cursos" />
         {ListCourses.courses.map((item) => {
           return (
-            <S.Container key={item.id}>
+            <S.ContainerBox key={item.id}>
               <BoxCourse
                 onClick={() => redirectPage(item.link)}
                 icon={DigitalInnovation}
@@ -24,11 +26,11 @@ const Courses = () => {
                 text={item.text}
                 link={item.link}
               />
-            </S.Container>
+            </S.ContainerBox>
           );
         })}
       </PageWidth>
-    </BoxContent>
+    </S.Container>
   );
 };
 

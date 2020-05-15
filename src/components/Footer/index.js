@@ -8,17 +8,15 @@ import Developer from "./Developer";
 const Footer = () => {
   return (
     <S.Container>
-      <BoxContent style={{ backgroundColor: "#020230" }}>
-        <S.Col>
-          <ImageFooter />
-        </S.Col>
-        <S.Col>
-          <Contact />
-        </S.Col>
-        <S.Col>
-          <Developer />
-        </S.Col>
-      </BoxContent>
+      <S.Col>
+        <ImageFooter />
+      </S.Col>
+      <S.Col>
+        <Contact />
+      </S.Col>
+      <S.Col>
+        <Developer />
+      </S.Col>
     </S.Container>
   );
 };
