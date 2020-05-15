@@ -8,7 +8,7 @@ export const Container = styled.div`
   z-index: 99;
   padding: 5px;
   /* background: rgba(0, 0, 0, 0.2); */
-  font-family: "Exo 2", sans-serif;
+  font-family: "Open Sans", sans-serif;
 `;
 
 export const ContainerLogo = styled.div`
