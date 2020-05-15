@@ -1,6 +1,5 @@
 import React from "react";
 import * as S from "./styles";
-import BoxContent from "../BoxContent/index";
 import PageWidth from "../PageWidth/index";
 import AboutText from "./AboutText/index";
 import MyTechnologies from "./MyTechnologies/index";
@@ -16,7 +15,7 @@ import Title from "../Title/index";
 
 const About = () => {
   return (
-    <S.Container className="container-about">
+    <S.Container id="section-about" className="container-about">
       <PageWidth>
         <Title title="Sobre" />
         <AboutText />

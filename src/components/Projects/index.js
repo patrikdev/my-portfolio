@@ -12,7 +12,7 @@ const redirectPage = (link) => {
 
 const Projects = () => {
   return (
-    <S.Container className="container-projects">
+    <S.Container id="section-projects" className="container-projects">
       <PageWidth>
         <Title title="Projetos" />
         <S.Col className="col-box-items-projects">

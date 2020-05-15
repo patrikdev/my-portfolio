@@ -1,0 +1,24 @@
+{
+  "menuItems": [
+    {
+      "id": 1,
+      "label": "Home",
+      "route": "#section-home"
+    },
+    {
+      "id": 2,
+      "label": "Sobre",
+      "route": "#section-about"
+    },
+    {
+      "id": 3,
+      "label": "Experiências",
+      "route": "#section-experiences"
+    },
+    {
+      "id": 4,
+      "label": "Projetos",
+      "route": "#section-projects"
+    }
+  ]
+}

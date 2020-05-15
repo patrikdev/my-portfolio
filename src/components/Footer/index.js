@@ -1,6 +1,5 @@
 import React from "react";
 import * as S from "./styles";
-import BoxContent from "../BoxContent";
 import Contact from "./Contact/index";
 import ImageFooter from "./ImageFooter";
 import Developer from "./Developer";

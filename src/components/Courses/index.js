@@ -1,6 +1,5 @@
 import React from "react";
 import * as S from "./styles";
-import BoxContent from "../BoxContent";
 import PageWidth from "../PageWidth/index";
 import BoxCourse from "../BoxItems/index";
 import ListCourses from "./ListCourses.json";
@@ -13,7 +12,7 @@ const redirectPage = (link) => {
 
 const Courses = () => {
   return (
-    <S.Container className="container-courses">
+    <S.Container id="section-courses" className="container-courses">
       <PageWidth>
         <Title title="Cursos" />
         {ListCourses.courses.map((item) => {
