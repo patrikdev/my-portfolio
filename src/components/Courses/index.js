@@ -6,6 +6,10 @@ import BoxCourse from "../BoxItems/index";
 import ListCourses from "./ListCourses.json";
 import DigitalInnovation from "../../assets/img/digital.png";
 
+const redirectPage = (link) => {
+  window.open(`${link}`);
+};
+
 const Courses = () => {
   return (
     <BoxContent title="Cursos" style={{ backgroundColor: "#ffffff" }}>
@@ -14,6 +18,7 @@ const Courses = () => {
           return (
             <S.Container key={item.id}>
               <BoxCourse
+                onClick={() => redirectPage(item.link)}
                 icon={DigitalInnovation}
                 title={item.title}
                 text={item.text}

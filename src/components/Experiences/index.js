@@ -5,11 +5,11 @@ import PageWidth from "../PageWidth/index";
 import BoxCompany from "./BoxCompany";
 import Companies from "./ListCompanies.json";
 
-const Experiences = () => {
-  const redirectPage = (link) => {
-    window.open(`${link}`);
-  };
+const redirectPage = (link) => {
+  window.open(`${link}`);
+};
 
+const Experiences = () => {
   return (
     <BoxContent title="Experiências" style={{ backgroundColor: "#ffffff" }}>
       <PageWidth>
