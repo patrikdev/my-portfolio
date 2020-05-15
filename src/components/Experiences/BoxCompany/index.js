@@ -4,20 +4,20 @@ import BoxIcon from "./BoxIcon/index";
 import DetailsBox from "./DetailsBox";
 import BoxText from "./BoxText";
 
-const BoxCompany = (props) => {
+const BoxCompany = ({ title, charge, start, end, onClick, text }) => {
   return (
-    <S.Container>
+    <S.Container onClick={onClick}>
       <S.Row>
         <BoxIcon />
       </S.Row>
       <S.Row>
-        <S.Title>{props.title}</S.Title>
+        <S.Title>{title}</S.Title>
       </S.Row>
       <S.Row>
-        <DetailsBox charge={props.charge} start={props.start} end={props.end} />
+        <DetailsBox charge={charge} start={start} end={end} />
       </S.Row>
       <S.Row>
-        <BoxText text={props.text} />
+        <BoxText text={text} />
       </S.Row>
     </S.Container>
   );

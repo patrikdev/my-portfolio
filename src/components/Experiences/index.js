@@ -6,6 +6,10 @@ import BoxCompany from "./BoxCompany";
 import Companies from "./ListCompanies.json";
 
 const MyExperiences = () => {
+  const redirectPage = (link) => {
+    window.open(`${link}`);
+  };
+
   return (
     <BoxContent title="Experiências" style={{ backgroundColor: "#ffffff" }}>
       <PageWidth>
@@ -13,6 +17,7 @@ const MyExperiences = () => {
           return (
             <S.Container key={item.id}>
               <BoxCompany
+                onClick={() => redirectPage(item.link)}
                 title={item.title}
                 charge={item.charge}
                 start={item.start}
