@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Container = styled.div`
   display: inline-block;
   vertical-align: top;
-  margin-left: 40px;
+  padding: 0 20px;
 `;
 
 const Label = styled.div`
