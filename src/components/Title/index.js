@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  padding: 30px 0;
+  padding: 40px 0;
 `;
 
 const Label = styled.div`
