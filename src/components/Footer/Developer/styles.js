@@ -38,4 +38,11 @@ export const Icon = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  opacity: 30%;
+  cursor: pointer;
+  transition: .3s;
+
+  &:hover {
+    opacity: 100%;
+  }
 `;
