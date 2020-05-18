@@ -17,6 +17,11 @@
     },
     {
       "id": 4,
+      "label": "Cursos",
+      "route": "#section-courses"
+    },
+    {
+      "id": 4,
       "label": "Projetos",
       "route": "#section-projects"
     }
