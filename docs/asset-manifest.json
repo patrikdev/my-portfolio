@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8c1fd7a8.chunk.css",
+    "main.js": "./static/js/main.ec5413ff.chunk.js",
+    "main.js.map": "./static/js/main.ec5413ff.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.6e01fcbc.js",
+    "runtime-main.js.map": "./static/js/runtime-main.6e01fcbc.js.map",
+    "static/js/2.44a0ec4c.chunk.js": "./static/js/2.44a0ec4c.chunk.js",
+    "static/js/2.44a0ec4c.chunk.js.map": "./static/js/2.44a0ec4c.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.4e8c07d9b6171bc8035b2fafe36fe209.js": "./precache-manifest.4e8c07d9b6171bc8035b2fafe36fe209.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.8c1fd7a8.chunk.css.map": "./static/css/main.8c1fd7a8.chunk.css.map",
+    "static/js/2.44a0ec4c.chunk.js.LICENSE.txt": "./static/js/2.44a0ec4c.chunk.js.LICENSE.txt",
+    "static/media/alagym.png": "./static/media/alagym.e3b57204.png",
+    "static/media/css3.jpg": "./static/media/css3.93f24da2.jpg",
+    "static/media/dev.png": "./static/media/dev.bb8207e8.png",
+    "static/media/digital.png": "./static/media/digital.3f7bb18a.png",
+    "static/media/empresa.png": "./static/media/empresa.ce72fed0.png",
+    "static/media/facebook.svg": "./static/media/facebook.e917de26.svg",
+    "static/media/github.jpg": "./static/media/github.4a4fcdca.jpg",
+    "static/media/github.svg": "./static/media/github.e4f2d6b0.svg",
+    "static/media/javaScript.png": "./static/media/javaScript.0e4fdce8.png",
+    "static/media/linkedin.svg": "./static/media/linkedin.14f7b675.svg",
+    "static/media/logo.png": "./static/media/logo.91eeebbc.png",
+    "static/media/mail.svg": "./static/media/mail.deda33ae.svg",
+    "static/media/node.png": "./static/media/node.676abc85.png",
+    "static/media/person.png": "./static/media/person.a58b49b4.png",
+    "static/media/phone.svg": "./static/media/phone.939a1c61.svg",
+    "static/media/react.png": "./static/media/react.68b835f8.png",
+    "static/media/reactNative.png": "./static/media/reactNative.418e52e2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e01fcbc.js",
+    "static/js/2.44a0ec4c.chunk.js",
+    "static/css/main.8c1fd7a8.chunk.css",
+    "static/js/main.ec5413ff.chunk.js"
+  ]
+}
