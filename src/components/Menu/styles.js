@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import LogoIMG from "../../assets/img/logo.png";
+import LogoWhite from "../../assets/img/logo.png";
+import LogoBlack from "../../assets/img/logoBlack.png";
 
 export const Container = styled.div`
   position: fixed;
@@ -7,8 +8,21 @@ export const Container = styled.div`
   height: 70px;
   z-index: 99;
   padding: 5px;
-  background: #000000;
   font-family: "Open Sans", sans-serif;
+
+  &.newMenu {
+    transition: 0.3s;
+    background: #ffffff;
+    box-shadow: 0 1px 5px #bbb;
+
+    .logo {
+      background-image: url('${LogoBlack}');
+    }
+
+    .item-menu {
+      color: #000;
+    }
+  }
 `;
 
 export const ContainerLogo = styled.div`
@@ -21,7 +35,7 @@ export const ContainerLogo = styled.div`
 export const Logo = styled.div`
   width: 100%;
   height: 100%;
-  background-image: url('${LogoIMG}');
+  background-image: url('${LogoWhite}');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

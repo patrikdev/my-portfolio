@@ -16,12 +16,12 @@ const moveScroll = (elementSelector) => {
 
 const Menu = () => {
   return (
-    <S.Container>
+    <S.Container className="container-menu" id="container-menu">
       <PageWidth>
-        <S.ContainerLogo>
-          <S.Logo />
+        <S.ContainerLogo className="container-logo">
+          <S.Logo className="logo" />
         </S.ContainerLogo>
-        <S.ContainerItems>
+        <S.ContainerItems className="container-items">
           {MenuItems.menuItems.map((item) => {
             return (
               <MenuItem

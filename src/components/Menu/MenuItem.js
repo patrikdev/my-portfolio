@@ -16,7 +16,7 @@ const Label = styled.div`
 const MenuItem = ({ label, onClick }) => {
   return (
     <Container onClick={onClick}>
-      <Label>{label}</Label>
+      <Label className="item-menu">{label}</Label>
     </Container>
   );
 };
