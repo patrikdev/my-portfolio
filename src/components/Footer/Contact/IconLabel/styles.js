@@ -8,6 +8,7 @@ export const ContainerIcon = styled.div`
   width: 8%;
 
   @media (max-width: 320px) {
+    width: 100%;
     padding-bottom: 10px;
   }
 `;
@@ -20,10 +21,12 @@ export const ContainerLabel = styled.div`
 
   @media (max-width: 320px) {
     width: 100%;
+    padding-bottom: 10px;
   }
 `;
 
 export const Icon = styled.div`
+  margin: auto;
   width: 24px;
   height: 24px;
   background: url('${(props) => props.icon}');
