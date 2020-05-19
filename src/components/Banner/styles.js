@@ -3,13 +3,18 @@ import IMG from "../../assets/img/person.png";
 
 export const Container = styled.div`
   background: linear-gradient(#020230, #020220);
-  height: 600px;
+  min-height: 600px;
 `;
 
 export const Col = styled.div`
   width: 50%;
   display: inline-block;
   vertical-align: top;
+
+  @media (max-width: 790px) {
+    display: block;
+    width: 100%;
+  }
 `;
 
 export const ContainerImage = styled.div`
@@ -18,6 +23,25 @@ export const ContainerImage = styled.div`
   position: absolute;
   top: 130px;
   right: 50px;
+
+  @media (max-width: 1020px) {
+    width: 350px;
+    height: 350px;
+  }
+
+  @media (max-width: 790px) {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 90px;
+    left: 30px;
+  }
+
+  @media (max-width: 320px) {
+    top: 180px;
+    width: 250px;
+    height: 250px;
+  }
 `;
 
 export const ContainerLabels = styled.div`
@@ -26,6 +50,14 @@ export const ContainerLabels = styled.div`
 
   @media (max-width: 1218px) {
     left: 30px;
+  }
+
+  @media (max-width: 790px) {
+    top: 90px;
+  }
+
+  @media (max-width: 320px) {
+    top: 160px;
   }
 `;
 
@@ -48,7 +80,10 @@ export const Title = styled.div`
 
   @media (max-width: 1020px) {
     font-size: 52px;
-    /* display: block; */
+  }
+
+  @media (max-width: 320px) {
+    font-size: 38px;
   }
 `;
 
@@ -61,7 +96,10 @@ export const Title2 = styled.div`
   @media (max-width: 1020px) {
     font-size: 52px;
     display: block;
-    /* display: block; */
+  }
+
+  @media (max-width: 320px) {
+    font-size: 38px;
   }
 `;
 
