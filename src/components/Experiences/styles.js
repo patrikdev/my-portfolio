@@ -10,5 +10,13 @@ export const ContainerBox = styled.div`
   display: inline-block;
   vertical-align: top;
   width: 33%;
-  text-align: center;
+
+  @media (max-width: 1140px) {
+    width: 49%;
+    padding-bottom: 20px;
+  }
+
+  @media (max-width: 780px) {
+    width: 100%;
+  }
 `;
