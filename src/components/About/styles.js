@@ -25,4 +25,8 @@ export const Col = styled.div`
   @media (max-width: 1025px) {
     width: 30%;
   }
+
+  @media (max-width: 460px) {
+    width: 50%;
+  }
 `;
