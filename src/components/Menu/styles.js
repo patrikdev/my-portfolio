@@ -29,10 +29,16 @@ export const ContainerLogo = styled.div`
   width: 12%;
   display: inline-block;
   vertical-align: top;
+
+  @media (max-width: 720px) {
+    width: 100%;
+    text-align: center;
+  }
 `;
 
 export const Logo = styled.div`
-  width: 100%;
+  margin: auto;
+  width: 120px;
   height:60px;
   background-image: url('${LogoWhite}');
   background-size: contain;
@@ -46,4 +52,8 @@ export const ContainerItems = styled.div`
   width: 82%;
   text-align: right;
   line-height: 60px;
+
+  @media (max-width: 720px) {
+    display: none;
+  }
 `;
