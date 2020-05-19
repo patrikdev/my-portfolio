@@ -15,7 +15,7 @@ const Banner = () => {
             <S.TitleSize18 className="title-size18-banner">
               &nbsp;e&nbsp;
             </S.TitleSize18>
-            <S.Title className="title-banner">React Native</S.Title>
+            <S.Title2 className="title-banner">React Native</S.Title2>
           </S.ContainerLabels>
         </S.Col>
         <S.Col className="col-banner-image">
