@@ -21,4 +21,8 @@ export const Col = styled.div`
   width: 14.2%;
   padding: 20px 0;
   text-align: center;
+
+  @media (max-width: 1025px) {
+    width: 30%;
+  }
 `;
