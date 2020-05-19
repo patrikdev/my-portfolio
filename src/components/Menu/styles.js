@@ -23,10 +23,12 @@ export const Container = styled.div`
       color: #000;
     }
   }
+
+  
 `;
 
 export const ContainerLogo = styled.div`
-  width: 12%;
+  width: 120px;
   display: inline-block;
   vertical-align: top;
 
@@ -43,6 +45,9 @@ export const Logo = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+
+  
+
 `;
 
 export const ContainerItems = styled.div`
@@ -54,6 +59,5 @@ export const ContainerItems = styled.div`
 
   @media (max-width: 798px) {
     display: none;
-    width: none;
   }
 `;

@@ -49,7 +49,7 @@ export const ContainerLabels = styled.div`
   top: 180px;
 
   @media (max-width: 1220px) {
-    left: 30px;
+    margin-left: 30px;
   }
 
   @media (max-width: 790px) {
