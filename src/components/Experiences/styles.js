@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: "#ffffff";
+  /* background: "#ffffff"; */
   min-height: 700px;
   padding: 50px 0;
+  background: blue;
 `;
 
 export const ContainerBox = styled.div`

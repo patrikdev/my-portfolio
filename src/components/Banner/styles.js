@@ -38,7 +38,7 @@ export const ContainerImage = styled.div`
   }
 
   @media (max-width: 320px) {
-    top: 180px;
+    top: 200px;
     width: 250px;
     height: 250px;
   }
@@ -48,12 +48,12 @@ export const ContainerLabels = styled.div`
   position: relative;
   top: 180px;
 
-  @media (max-width: 1218px) {
+  @media (max-width: 1220px) {
     left: 30px;
   }
 
   @media (max-width: 790px) {
-    top: 90px;
+    top: 100px;
   }
 
   @media (max-width: 320px) {
@@ -70,6 +70,10 @@ export const TitleSize22 = styled.div`
     font-size: 18px;
     padding-bottom: 0;
   }
+
+  @media (max-width: 320px) {
+    padding-bottom: 20px;
+  }
 `;
 
 export const Title = styled.div`
@@ -82,8 +86,16 @@ export const Title = styled.div`
     font-size: 52px;
   }
 
+  @media (max-width: 731px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 385px) {
+    font-size: 28px;
+  }
+
   @media (max-width: 320px) {
-    font-size: 38px;
+    font-size: 24px;
   }
 `;
 
@@ -98,8 +110,16 @@ export const Title2 = styled.div`
     display: block;
   }
 
+  @media (max-width: 731px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 385px) {
+    font-size: 28px;
+  }
+
   @media (max-width: 320px) {
-    font-size: 38px;
+    font-size: 24px;
   }
 `;
 

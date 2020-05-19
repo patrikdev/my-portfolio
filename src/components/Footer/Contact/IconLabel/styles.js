@@ -28,4 +28,8 @@ export const Label = styled.span`
   font-size: 18px;
   color: #677294;
   line-height: 24px;
+
+  @media (max-width: 320px) {
+    font-size: 14px;
+  }
 `;

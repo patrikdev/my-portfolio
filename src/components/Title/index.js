@@ -10,6 +10,14 @@ const Label = styled.div`
   font-size: 60px;
   text-align: center;
   font-weight: bold;
+
+  @media (max-width: 480px) {
+    font-size: 52px;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 44px;
+  }
 `;
 
 const Title = ({ title }) => {

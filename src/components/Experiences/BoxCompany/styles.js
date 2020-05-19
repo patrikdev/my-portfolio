@@ -19,6 +19,10 @@ export const Container = styled.div`
     border-top: 6px solid blue;
     box-shadow: 1px 1px 20px 5px #dddddd;
   }
+
+  @media (max-width: 320px) {
+    width: 300px;
+  }
 `;
 
 export const Row = styled.div``;

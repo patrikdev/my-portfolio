@@ -5,7 +5,7 @@ import LogoBlack from "../../assets/img/logoBlack.png";
 export const Container = styled.div`
   position: fixed;
   width: 100%;
-  min-height: 70px;
+  height: 70px;
   z-index: 99;
   padding: 5px;
   font-family: "Open Sans", sans-serif;
@@ -30,16 +30,15 @@ export const ContainerLogo = styled.div`
   display: inline-block;
   vertical-align: top;
 
-  @media (max-width: 720px) {
+  @media (max-width: 798px) {
     width: 100%;
-    text-align: center;
   }
 `;
 
 export const Logo = styled.div`
   margin: auto;
   width: 120px;
-  height:60px;
+  height: 60px;
   background-image: url('${LogoWhite}');
   background-size: contain;
   background-repeat: no-repeat;
@@ -53,7 +52,8 @@ export const ContainerItems = styled.div`
   text-align: right;
   line-height: 60px;
 
-  @media (max-width: 720px) {
+  @media (max-width: 798px) {
     display: none;
+    width: none;
   }
 `;

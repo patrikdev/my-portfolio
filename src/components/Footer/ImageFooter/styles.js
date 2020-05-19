@@ -5,6 +5,11 @@ export const Container = styled.div`
   width: 380px;
   height: 380px;
   margin: auto;
+
+  @media (max-width: 365px) {
+    width: 200px;
+    height: 200px;
+  }
 `;
 
 export const Image = styled.div`
