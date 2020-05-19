@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 30px 0;
+
+  @media (max-width: 1230px) {
+    padding: 0 30px;
+  }
 `;
 
 export const Label = styled.div`
