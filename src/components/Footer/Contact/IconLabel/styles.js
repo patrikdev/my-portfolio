@@ -6,6 +6,10 @@ export const ContainerIcon = styled.div`
   display: inline-block;
   vertical-align: top;
   width: 8%;
+
+  @media (max-width: 320px) {
+    padding-bottom: 10px;
+  }
 `;
 
 export const ContainerLabel = styled.div`
@@ -13,6 +17,10 @@ export const ContainerLabel = styled.div`
   vertical-align: top;
   width: 91%;
   line-height: 22px;
+
+  @media (max-width: 320px) {
+    width: 100%;
+  }
 `;
 
 export const Icon = styled.div`
@@ -30,6 +38,6 @@ export const Label = styled.span`
   line-height: 24px;
 
   @media (max-width: 320px) {
-    font-size: 14px;
+    font-size: 16px;
   }
 `;
