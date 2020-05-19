@@ -18,7 +18,9 @@ const Projects = () => {
         <S.Col className="col-box-items-projects">
           <BoxItems
             onClick={() =>
-              redirectPage("https://patrikdev.github.io/uarini.com/")
+              redirectPage(
+                "https://github.com/patrikdev/alagym-react-native-1.0"
+              )
             }
             iconStyle={{ height: "180px" }}
             title="AlaGym"
@@ -29,9 +31,7 @@ const Projects = () => {
         <S.Col className="col-box-items-projects">
           <BoxItems
             onClick={() =>
-              redirectPage(
-                "https://github.com/patrikdev/alagym-react-native-1.0"
-              )
+              redirectPage("https://github.com/patrikdev/uarini.com")
             }
             iconStyle={{ height: "180px" }}
             title="Uarini.com"
