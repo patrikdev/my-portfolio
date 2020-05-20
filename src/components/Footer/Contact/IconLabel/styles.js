@@ -19,7 +19,7 @@ export const ContainerLabel = styled.div`
   width: 91%;
   line-height: 22px;
 
-  @media (max-width: 320px) {
+  @media (max-width: 500px) {
     width: 100%;
     padding-bottom: 10px;
   }
@@ -40,7 +40,7 @@ export const Label = styled.span`
   color: #677294;
   line-height: 24px;
 
-  @media (max-width: 320px) {
+  @media (max-width: 500px) {
     font-size: 16px;
   }
 `;
