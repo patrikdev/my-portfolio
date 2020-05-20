@@ -37,6 +37,10 @@ export const ContainerImage = styled.div`
     left: 30px;
   }
 
+  @media (max-width: 730px) {
+    top: 170px;
+  }
+
   @media (max-width: 320px) {
     top: 200px;
     width: 250px;
@@ -54,6 +58,10 @@ export const ContainerLabels = styled.div`
 
   @media (max-width: 790px) {
     top: 100px;
+  }
+
+  @media (max-width: 730px) {
+    top: 150px;
   }
 
   @media (max-width: 320px) {
