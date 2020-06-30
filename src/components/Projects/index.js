@@ -4,6 +4,8 @@ import PageWidth from "../PageWidth";
 import BoxItems from "../BoxItems";
 import Alagym from "../../assets/img/alagym.png";
 import Uarini from "../../assets/img/shopping.png";
+import Count from "../../assets/img/Contador.png";
+import Curriculo from "../../assets/img/curriculo.png";
 import Title from "../Title/index";
 
 const redirectPage = (link) => {
@@ -37,6 +39,28 @@ const Projects = () => {
             title="Uarini.com"
             text="O objetivo é importar produtos típicos das regiões norte e nordeste e vender aqui no sudeste. É apenas um projeto pessoal sem estimativa de conclusão."
             icon={Uarini}
+          />
+        </S.Col>
+        <S.Col className="col-box-items-projects">
+          <BoxItems
+            onClick={() =>
+              redirectPage("https://patrikdev.github.io/contador-react/")
+            }
+            iconStyle={{ height: "180px" }}
+            title="Contador React"
+            text="Um projeto voltado para treinamento com React Hooks, utilizando styled-components."
+            icon={Count}
+          />
+        </S.Col>
+        <S.Col className="col-box-items-projects">
+          <BoxItems
+            onClick={() =>
+              redirectPage("https://patrikdev.github.io/MyResume/")
+            }
+            iconStyle={{ height: "180px" }}
+            title="My Resume"
+            text="Criei uma versão digital do meu currículo em React! Layout responsivo, seguindo as best practices do React, HTML5, CSS3 e versionamento Git."
+            icon={Curriculo}
           />
         </S.Col>
       </PageWidth>
