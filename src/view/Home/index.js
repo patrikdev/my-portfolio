@@ -18,7 +18,7 @@ const Home = () => {
         <About />
         <Experiences />
         <Courses />
-        <Projects />
+        <Projects /> 
         <Footer />
       </Content>
     </S.Container>

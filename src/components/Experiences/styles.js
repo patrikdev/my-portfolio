@@ -10,6 +10,7 @@ export const ContainerBox = styled.div`
   display: inline-block;
   vertical-align: top;
   width: 33%;
+  margin-bottom: 15px;
 
   @media (max-width: 1140px) {
     width: 49%;

@@ -1,6 +1,15 @@
 {
   "companies": [
     {
+      "id": 4,
+      "title": "Opah It Consulting Desenvolvimento de Sistemas",
+      "charge": "Desenvolvedor Front End React",
+      "start": "01/07/2021",
+      "end":  "Atuando",
+      "text": "Atuando como desenvolvedor Front End, utilizando as seguintes tecnlogias em seus respectivos projetos internos: (React, Styled-Components, Redux, NextJs, CSS, HTML5)",
+      "link": "https://www.opah.com.br/" 
+    },
+    {
       "id": 1,
       "title": "Action Telecom Serviços de Comunicação Ltda",
       "charge": "Analista de Suporte e Redes",

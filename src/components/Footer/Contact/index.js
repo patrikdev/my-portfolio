@@ -14,7 +14,7 @@ export const Contact = () => {
         <IconLabel icon={Phone} label="(11) 96551-0544" />
       </S.Row>
       <S.Row className="row-icon-contact">
-        <IconLabel icon={Mail} label="patrikmatos.tecinfo@gmail.com" />
+        <IconLabel icon={Mail} label="patrikmatos.developer@gmail.com" />
       </S.Row>
     </S.Container>
   );

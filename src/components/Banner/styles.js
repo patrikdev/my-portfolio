@@ -10,10 +10,12 @@ export const Col = styled.div`
   width: 50%;
   display: inline-block;
   vertical-align: top;
+  position: relative;
 
   @media (max-width: 790px) {
     display: block;
     width: 100%;
+    padding: 0 10px;
   }
 `;
 
@@ -27,10 +29,10 @@ export const ContainerImage = styled.div`
   @media (max-width: 1020px) {
     width: 350px;
     height: 350px;
+    margin: auto; 
   }
 
   @media (max-width: 790px) {
-    position: relative;
     width: 300px;
     height: 300px;
     top: 90px;
@@ -39,13 +41,14 @@ export const ContainerImage = styled.div`
 
   @media (max-width: 730px) {
     top: 170px;
+    left: 0;
   }
 
-  @media (max-width: 320px) {
-    top: 200px;
-    width: 250px;
-    height: 250px;
+  @media (max-width: 400px) {
+    width: 100%;
   }
+
+  
 `;
 
 export const ContainerLabels = styled.div`
